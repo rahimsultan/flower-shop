@@ -4,6 +4,41 @@
   box-sizing: border-box;
 }
 
+/* Shared Style */
+
 body {
   font-family: "Lato", sans-serif;
+}
+
+.btn__primary {
+  border: none;
+  background: #e55473;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header Style */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 0px 240px;
+}
+.header__title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.header__description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0px;
+  max-width: 634px;
 }
