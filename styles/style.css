@@ -10,6 +10,20 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.section__title {
+  color: #272727;
+  font-size: 40px;
+  font-family: Lato;
+  font-weight: 800;
+}
+
+.section__description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 .btn__primary {
   border: none;
   background: #e55473;
@@ -34,11 +48,84 @@ header {
   font-size: 80px;
   font-weight: 800;
 }
-.header__description {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+
+header .section__description {
   margin: 32px 0px;
   max-width: 634px;
+}
+
+/* Featured Flower*/
+
+.featured {
+  margin-top: 178px;
+  text-align: center;
+}
+
+.featured .section__description {
+  margin-bottom: 48px;
+  margin-top: 24px;
+  max-width: 594px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Flowers */
+.flowers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 240px;
+}
+
+.flower__box {
+  background: rgba(167, 33, 98, 0.15);
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  height: 538px;
+  padding: 0px 75px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box-2 {
+  background: rgba(5, 150.7, 160, 0.15);
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.box-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower__box img {
+  max-width: 300px;
+}
+
+.flower__name {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 32px;
+}
+
+/* solid banner */
+
+.feature-banner {
+  background: rgba(39, 39, 39, 0.05);
+  padding: 88px 175px;
+  margin: 140px 240px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature__item img {
+  width: 88px;
+  margin-bottom: 24px;
+}
+
+.feature__item p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
 }
