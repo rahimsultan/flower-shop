@@ -129,3 +129,42 @@ header .section__description {
   font-size: 24px;
   font-weight: 600;
 }
+
+/* Discount Banner */
+.discount {
+  background: rgba(229, 84, 115, 0.05);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px 240px;
+}
+.discount__content {
+  text-align: center;
+}
+.discount__content .section__title span {
+  color: #e55473;
+}
+
+.discount__content .section__description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: #272727;
+  max-width: 594px;
+}
+
+/* Instagram */
+.instagram {
+  margin: 128px 240px;
+  text-align: center;
+}
+
+.instagram .section__description {
+  max-width: 594px;
+  margin: 24px auto 48px auto;
+}
+
+.gallery {
+  display: flex;
+  gap: 24px;
+}
