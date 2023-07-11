@@ -168,3 +168,67 @@ header .section__description {
   display: flex;
   gap: 24px;
 }
+
+/* Subscribe */
+
+.subscribe {
+  margin: 0px 240px 128px 240px;
+  text-align: center;
+  background: url("../images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 120px 190px;
+}
+
+.subscribe .section__description {
+  margin-bottom: 48px;
+}
+
+.input {
+  width: 100%;
+}
+input[type="email"] {
+  padding: 22px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  display: inline-block;
+  max-width: 100%;
+  width: 700px;
+}
+
+/* Footer  */
+
+.footer {
+  text-align: center;
+  background: #272727;
+  padding: 128px 0px;
+}
+.footer h2 {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.footer h2 span {
+  color: white;
+}
+
+.footer .section__description {
+  color: white;
+  max-width: 625px;
+  margin: 0px auto 32px auto;
+}
+
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
