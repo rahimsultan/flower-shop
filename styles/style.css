@@ -127,7 +127,7 @@ header .section__description {
 
 .feature-banner {
   background: rgba(39, 39, 39, 0.05);
-  padding: 88px 175px;
+  padding: 88px 20px;
   margin: 140px auto;
   border-radius: 8px;
   display: flex;
