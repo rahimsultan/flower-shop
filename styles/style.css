@@ -37,11 +37,16 @@ body {
 
 /* Header Style */
 header {
+  background-color: rgba(229, 84, 115, 0.1);
+  height: 100vh;
+  /* padding: 0px 240px; */
+}
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(229, 84, 115, 0.1);
-  padding: 0px 240px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header__title {
   color: #272727;
@@ -52,6 +57,16 @@ header {
 header .section__description {
   margin: 32px 0px;
   max-width: 634px;
+}
+
+/* .header__img {
+  width: 100%;
+} */
+
+.header__img img {
+  display: block;
+  /* width: 635px; */
+  height: 100vh;
 }
 
 /* Featured Flower*/
@@ -73,7 +88,7 @@ header .section__description {
 .flowers {
   display: flex;
   justify-content: space-between;
-  padding: 0px 240px;
+  /* padding: 0px 240px; */
 }
 
 .flower__box {
@@ -113,7 +128,7 @@ header .section__description {
 .feature-banner {
   background: rgba(39, 39, 39, 0.05);
   padding: 88px 175px;
-  margin: 140px 240px;
+  margin: 140px auto;
   border-radius: 8px;
   display: flex;
   justify-content: space-evenly;
@@ -133,6 +148,7 @@ header .section__description {
 /* Discount Banner */
 .discount {
   background: rgba(229, 84, 115, 0.05);
+  max-width: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -155,7 +171,8 @@ header .section__description {
 
 /* Instagram */
 .instagram {
-  margin: 128px 240px;
+  margin-top: 128px;
+  margin-bottom: 128px;
   text-align: center;
 }
 
@@ -172,7 +189,7 @@ header .section__description {
 /* Subscribe */
 
 .subscribe {
-  margin: 0px 240px 128px 240px;
+  margin-bottom: 128px;
   text-align: center;
   background: url("../images/Rectangle 9.png");
   background-repeat: no-repeat;
@@ -231,4 +248,10 @@ input[type="email"] {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
   font-weight: 400;
+}
+
+/* ============== */
+section {
+  max-width: 1440px;
+  margin: 0 auto;
 }
