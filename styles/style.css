@@ -220,6 +220,56 @@ input[type="email"] {
   width: 700px;
 }
 
+/* Blogs */
+.blog-section {
+  margin-bottom: 128px;
+}
+.blog-section .section__title {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blog {
+  width: 320px;
+  box-shadow: 1px 1px 10px 1px rgba(209, 209, 209, 0.5);
+  cursor: pointer;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.blog img {
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.blog__content {
+  padding: 20px;
+}
+.blog__title {
+  color: #010101;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.blog__info {
+  display: flex;
+  justify-content: space-between;
+  color: #575656;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.blog__post {
+  font-size: 18px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  color: #272727;
+}
+
 /* Footer  */
 
 .footer {
